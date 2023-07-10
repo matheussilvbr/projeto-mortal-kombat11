@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto mortal-kombat</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet"/>
+
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo"   src="./src/imagens/logo.png" alt="logo mortal-kombat">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="scorpion" data-name="Scorpion" data-description="Ele era originalmente um ninja do clã Shirai Ryu e vivia como um homem bom. No entanto, sua vida mudou drasticamente quando foi morto por Sub-Zero, em uma emboscada arquitetada por Quan Chi. Após sua morte, Scorpion se torna um espectro e busca vingança pela destruição de seu clã e pela sua própria morte. ">
+                <img src="./src/imagens/card-scorpion.jpg" alt="personagem scorpion">
+            </li>
+            <li class="personagem" id="sub-zero" data-name="Sub Zero"
+            data-description="Ele é o ninja do gelo e comandante do clã Lin Kuei, é conhecido por seus poderes de gelo, capazes de congelar e manipular o ambiente e seus oponentes.">
+                <img src="./src/imagens/card-sub-zero.jpg" alt="personagem sub-zero">
+            </li>
+
+            <li class="personagem" id="kung-lao" data-name="Kung lao" data-description="Ele é descendente do lendário guerreiro Kung Lao e é o melhor amigo do campeão de Earthrealm, Liu Kang. Kung Lao é conhecido por fazer parte da ala intelectual do jogo, demonstrando sabedoria e habilidades estratégicas.">
+                <img src="./src/imagens/card-kung-lao.jpg" alt="personagem kung-lao">
+
+            </li>
+
+            <li class="personagem" id="raiden" data-name="Raiden" data-description="Na franquia, Raiden é o Deus do trovão que lidera e protege as forças do reino da Terra, servindo como mentor para personagens como Liu Kang.">
+                <img src="./src/imagens/card-raiden.jpg" alt="personagem raiden">
+
+            </li>
+
+            <li class="personagem" id="liu-kang" data-name="Liu kang" data-description="Liu Kang é conhecido por sua personalidade heroica, altruísta e destemida. Ele é movido por um forte senso de justiça e uma crença inabalável na defesa dos oprimidos. Como um monge Shaolin, ele é treinado em artes marciais, com ênfase na força interior, disciplina e equilíbrio espiritual.">
+                <img src="./src/imagens/card-liu-kang.jpg" alt="personagem liu-kang">
+
+            </li>
+
+            <li class="personagem" id="johnnycage" data-name="Johnnycage" data-description="Um astro dos cinemas de Hollywood e mestre incondicional de artes marciais. Foi treinado pelos melhores mestres do mundo, além de ser amigo de Liu Kang e Kung Lao. Tem um carinho especial por Sonya Blade.">
+                <img src="./src/imagens/card-johnnycage.jpg" alt="personagem johnnycage">
+
+            </li>
+
+            <li class="personagem" id="sonya" data-name="Sonya" data-description="Ela é uma membro do exército e tem um forte senso de justiça. Sonya entra no torneio de Mortal Kombat com o objetivo de capturar o perigoso criminoso Kano, que é aliado de Shang Tsung, o vilão por trás do torneio.">
+                <img src="./src/imagens/card-sonya.jpg" alt="personagem sonya">
+
+            </li>
+
+            <li class="personagem" id="jax" data-name="Jax" data-description="Líder do grupo Special Forces, Jax é o superior direto de Sonya Blade. Famoso por seu braço biônico, ele é um dos raros humanos que entraram para o Mortal Kombat no intuito de derrotar Shao Kahn.">
+                <img src="./src/imagens/card-jax.jpg" alt="personagem jax">
+
+            </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-scorpion.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Scorpion</h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                </p>
+            </div>
+        </section>
+        </main>
+        <script src="./src/js/index.js"></script>
+    </body>
+</html>
